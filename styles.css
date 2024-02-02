@@ -1,0 +1,110 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background-color: #1b1c1c;
+    display: block;
+    font-family: sans-serif;
+   }
+
+main {
+    color: white;
+    margin: 20px 8px;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+h3 {
+    text-align: center;
+    margin: 15px auto 30px auto;
+    color: white;
+}
+
+h4 {
+    max-width: 550px;
+    text-align: left;
+    margin: 10px auto 40px auto;
+    font-size: 22px;
+    font-weight: 5px;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    height: auto;
+    border-radius: 50px;
+    border-color: white;
+    border-style: ridge;
+    border-width: 5px;
+}
+
+#img-caption {
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#headline1 {
+    padding-bottom: 50px;
+}
+
+.backgroundwall {
+    display: block;
+    float: center;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    max-width: 50%;
+}
+
+ul {
+    max-width: 550px;
+    text-align: left;
+    margin: 0 auto 50px auto;
+}
+
+li {
+    margin: 10px auto;
+}
+
+.backgroundwall > p {
+    margin: 15px 50px;
+    padding: 5px 5px;
+}
+
+cite {
+    margin: 15px 20px;
+    padding: 5px 5px;
+}
+
+footer > h3 {
+    color: black;
+    background-color: gray;
+    border-radius: 50px;
+    max-width: 500px;
+    padding: 20px;
+}
+
+a {
+    color: #81007F;
+}
+
+a:visited {
+    color: #81007F;
+}
